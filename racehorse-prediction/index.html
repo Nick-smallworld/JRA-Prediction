@@ -667,6 +667,14 @@
                 let predictedText = jpClassMap[data.prediction] || data.prediction;
                 if (data.prediction === "Un-raced") {
                     predictedText = "未勝利もしくは1勝クラスの可能性があります";
+                } else if (data.prediction === "1 win") {
+                    predictedText = "1勝以上の可能性があります";
+                } else if (data.prediction === "2 wins") {
+                    predictedText = "2勝以上の可能性があります";
+                } else if (data.prediction === "3 wins") {
+                    predictedText = "3勝以上の可能性があります";
+                } else if (data.prediction === "Open class (4+ wins)") {
+                    predictedText = "オープン以上の可能性があります";
                 }
                 document.getElementById('predictedClass').textContent = predictedText;
                 const probBars = document.getElementById('probBars');
