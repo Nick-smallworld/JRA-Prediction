@@ -1,0 +1,8 @@
+pandas>=2.0.0
+scikit-learn
+lightgbm
+fastapi
+uvicorn
+firebase-admin
+pytest
+httpx

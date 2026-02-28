@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Exclude secret credentials
+secret/
+
+# Exclude raw training data and pipelines
+data/raw/
+training_pipeline/

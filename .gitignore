@@ -1,0 +1,16 @@
+# Application Proprietary ML Data & IP Protection
+racehorse-prediction/data/
+racehorse-prediction/training_pipeline/
+racehorse-prediction/data_schema.txt
+
+# Firebase credentials
+racehorse-prediction/secret/
+
+# Local Dev & System Caches
+venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Models
+racehorse-prediction/models/
